@@ -1,0 +1,78 @@
+ul {
+    border: 3px dotted plum;
+    border-radius: 5px;
+}
+
+li {
+    border-top: 3px solid seagreen;
+}
+
+.mammal {
+    color: red;
+    background: lavenderBlush;
+    font-weight: bold;
+}
+
+.bird {
+    color: blue;
+    background: lightGray;
+    font-style: italic;
+}
+
+.fish {
+    color: orange;
+    background: lightYellow;
+    text-decoration: underline;
+}
+
+#gray {
+    color: gray;
+}
+
+#orangeRed {
+    color: orangeRed;
+}
+
+#black {
+    color: black;
+}
+
+#salmon {
+    color: salmon;
+}
+
+#sienna {
+    color: sienna;
+}
+
+#gold {
+    color: gold;
+}
+
+#tan {
+    color: tan;
+}
+
+#steelblue {
+    color: steelBlue;
+}
+
+#lime {
+    color: lime;
+}
+
+#purple {
+    color: purple;
+}
+
+#cns {
+    padding: 30px 0;
+    background: darkRed;
+    border: 15px dashed rgb(252, 230, 196);
+}
+
+#photo {
+    padding: 30px 0;
+    background: rebeccaPurple;
+    border: 3px solid orange;
+}
