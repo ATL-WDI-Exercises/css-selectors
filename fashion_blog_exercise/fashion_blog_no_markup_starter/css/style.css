@@ -36,13 +36,13 @@ header {
   float: left;
   font-size: 3em;
   font-weight: 300;
-  width: 22%;
+  width: 20%;
 }
 #headline h2 {
   color: gray;
   font-size: 1.5em;
   font-weight: 300;
-  padding: 2% 0 0 5%;
+  padding: 23px 0 0 0;
 }
 nav a, nav a:visited {
     background-color: black;
