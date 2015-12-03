@@ -13,6 +13,16 @@ a {
   text-decoration: none;
 }
 
+hr {
+  margin: 100px 0 60px 0;
+  width: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /************
   HEADER
@@ -38,7 +48,7 @@ header h1 small {
 header ul {
   padding: 0;
 }
-
+/*Border box in ul*/
 header ul li {
   padding: 15px 4.75%;
   margin: 0;
@@ -101,18 +111,7 @@ article .blogTxt p:first-child:first-letter{
   margin: -17.5px 10px -10px 0;
 }
 
-article .blogTxt a{
-  float: right;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #D50D0D;
-  padding: 5px 0 15px 0;
-}
 
-article .blogTxt hr {
-  margin: 100px 0 60px 0;
-  width: 100%;
-}
 /************
   Nav
 *************/
@@ -137,14 +136,38 @@ nav .about p {
   font-size: 1.3em;
 }
 
+nav hr{
+  width: 95%;
+
+  margin: 10px 2.5%;
+}
+
+nav .ad img{
+  margin: 15px 5%;
+  width: 90%;
+}
+
+nav li a{
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #E67972;
+}
+
 
 /************
   Footer
 *************/
 
-footer {}
+footer {
+  float: left;
+}
+
+footer ul{
+  padding: 0;
+}
 
 footer li {
+  font-size: 1.1em;
   display: inline;
 }
 
@@ -152,10 +175,22 @@ footer li a{
   color: #E67972;
 }
 
+footer:last-child{
+  margin-bottom: 30px;
+}
+
 
 /************
   Misc
 *************/
+
+.expand{
+  float: right;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #D50D0D;
+  padding: 5px 0 15px 0;
+}
 
 .clear {
   clear: both;
