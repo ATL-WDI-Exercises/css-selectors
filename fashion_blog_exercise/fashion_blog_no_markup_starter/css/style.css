@@ -90,7 +90,29 @@ article h1 {
   font-weight: 300;
 }
 
+article .blogTxt p{
+  font-size: 1.3em;
+}
 
+article .blogTxt p:first-child:first-letter{
+  float: left;
+  color: #DDD;
+  font-size: 5em;
+  margin: -17.5px 10px -10px 0;
+}
+
+article .blogTxt a{
+  float: right;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #D50D0D;
+  padding: 5px 0 15px 0;
+}
+
+article .blogTxt hr {
+  margin: 100px 0 60px 0;
+  width: 100%;
+}
 /************
   Nav
 *************/
