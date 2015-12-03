@@ -48,11 +48,11 @@ nav a, nav a:visited {
     background-color: black;
     color: white;
     display: inline-block;
-    padding: 1em;
+    padding: 1%;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    width: 15%;
+    width: 16.4%;
 }
 nav a:hover{
   background-color: black;
@@ -92,10 +92,38 @@ article a, article a:visited {
 /*----- Sidebar -----*/
 aside {
   float: right;
+  padding-top: 5em;
   width: 25%;
 }
+aside div {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
 aside img {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
   width: 100%;
+}
+aside a, aside a:visited {
+  color: red;
+  display: block;
+  float: right;
+  text-decoration: none;
+}
+#about {
+  border-bottom: 1px solid lightgray;
+}
+aside h4 {
+  color: gray;
+  margin-bottom: 1em;
+}
+#popular-posts ul, #popular-posts li {
+  color: red;
+  font-weight: 300;
+  margin: 1em 0 0 1em;
+  text-decoration: none;
+
 }
 /*----- Footer -----*/
 footer {
@@ -112,6 +140,5 @@ footer {
   border: none;
 }
 footer p {
-  color: gray;
-  margin: 5% 0;
+  color: gray; margin: 5% 0;
 }
