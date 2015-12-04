@@ -68,6 +68,7 @@ section img {
 }
 article {
   border-bottom: 1px solid gray;
+  margin-bottom: 3%;
   padding: 2% 0;
 }
 article h3 {
@@ -87,7 +88,14 @@ article a, article a:visited {
 .article-date {
   color: gray;
 }
-.article-title {
+article p:first-letter {
+  color: lightgray;
+  font-size: 7em;
+  font-weight: 300;
+  float: left;
+  display: block;
+  height: 1em;
+  margin: 3% 2% 3% 0;
 }
 /*----- Sidebar -----*/
 aside {
