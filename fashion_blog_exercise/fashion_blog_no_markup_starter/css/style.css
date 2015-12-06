@@ -3,7 +3,7 @@ header{
   width: 100%;
   margin-bottom: 20px;
   display: inline-block;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: Lato, "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 body{
   font-family: verdana, arial, helvetica, sans-serif;
@@ -39,6 +39,15 @@ nav ul li{
   display: inline;
   background-color: black;
   color: white;
+  list-style: none;
+}
+header nav{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 19pt;
+  margin: 0 2px 2px 0;
+  padding: 10px 26px;
 }
 aside{
   width: 30%;
@@ -53,7 +62,9 @@ footer{
 footer ul li{
   display: inline-block;
 }
-
+small{
+  color: grey;
+}
 .menu{
   height: 30px;
   text-decoration: none;
@@ -87,12 +98,20 @@ time{
 .cnt {
   color: grey;
 }
-.cnt::first-letter{
+.firstletter{
   font-size: 200%;
+  font-size: 5em;
+  line-height: 1;
+  color: #999;
+  margin: -.1em .1em 0 -.1em;
+  vertical-align: text-bottom;
+  float: left;
 }
 #etc{
   display: inline;
 }
 .sqr{
   padding: 10px;
+  background-color: black;
+  margin: 0;
 }
