@@ -24,7 +24,12 @@ a {
     color: #D00;
     text-decoration: none;
 }
-
+a:hover {
+    color: #F60;
+}
+p {
+    margin-top: 1.5em;
+}
 img {
     display: block;
     margin: 10px 0;
@@ -59,7 +64,6 @@ h2 {
 h3 {
     font-size: 1em;
     font-weight: 700;
-    margin-bottom: 1em;
 }
 
 date {
@@ -133,7 +137,7 @@ footer {
 
 footer ul {
     list-style: none;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .continue {
