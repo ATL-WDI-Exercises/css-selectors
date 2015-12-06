@@ -1,0 +1,124 @@
+body {
+  margin-left: 100px;
+
+}
+header {
+  width: 100%;
+  position: relative;
+
+
+}
+header>h1 {
+  font-size: 50px;
+  color: red;
+  margin-left: 45px;
+  margin-bottom: 0px;
+}
+header>h2 {
+  width: 500px;
+  padding-top: 28px;
+  position: absolute;
+  margin-left: 375px;
+  margin-top: -65px;
+  margin-bottom: 0px;
+  color: gray;
+  font-size: 25px;
+}
+nav {
+  width: 100%;
+
+}
+nav ul {
+  width: 100%;
+}
+nav ul li {
+  width: 200px;
+  height: 50px;
+  float: left;
+  background-color: black;
+  text-align: center;
+  border: 2px solid white;
+  list-style-type: none;
+  padding-top: 15px;
+  position: relative;
+
+}
+nav ul li a {
+  color: white;
+}
+#art1 {
+  margin-top: 140px;
+  margin-left: 40px;
+  width: 900px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid lightgray;
+}
+#art1 date {
+  font-size: 40px;
+  color: lightgray;
+
+}
+#art1Link {
+  margin-left: 790px;
+  font-size: 20px;
+  color: red;
+  position: relative;
+  top: 10px;
+}
+#art2 {
+  width: 900px;
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 50px;
+}
+#art2 date {
+  font-size: 40px;
+  color: lightgray;
+}
+#art2Link {
+  margin-left: 790px;
+  font-size: 20px;
+  color: red;
+  position: relative;
+  top: 10px;
+}
+aside {
+  float: right;
+  max-width: 300px;
+  position: relative;
+  bottom: 1330px;
+}
+#sec1 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+#sec1 h4 {
+  font-size: 20px;
+  color: gray;
+}
+#sec1 p {
+  font-size: 18px;
+}
+#sec1 a {
+  margin-left: 240px;
+  color: red;
+  font-size: 18px;
+}
+#sec2 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+footer {
+  margin-left: 50px;
+  font-size: 20px;
+}
+footer a {
+  color: red;
+}
+footer p small {
+  color: lightgray;
+}
+
