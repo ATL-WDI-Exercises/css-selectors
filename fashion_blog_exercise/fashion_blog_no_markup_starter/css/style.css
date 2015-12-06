@@ -24,12 +24,15 @@ a {
     color: #D00;
     text-decoration: none;
 }
+
 a:hover {
     color: #F60;
 }
+
 p {
     margin-top: 1.5em;
 }
+
 img {
     display: block;
     margin: 10px 0;
@@ -57,7 +60,6 @@ h1 {
 h2 {
     display: inline-block;
     font-size: 1.5em;
-    margin-bottom: .5em;
     color: #888;
 }
 
@@ -111,7 +113,9 @@ main {
 hr {
     margin: 2em 0 2em 0;
 }
+
 article h2 {
+    display: block;
     font-size: 2em;
     color: black;
 }
@@ -126,7 +130,7 @@ article p:first-of-type:first-letter {
 aside {
     width: 30%;
     float: right;
-    margin-top: 5.5em;
+    margin-top: 4.5em;
     color: #888;
 }
 
