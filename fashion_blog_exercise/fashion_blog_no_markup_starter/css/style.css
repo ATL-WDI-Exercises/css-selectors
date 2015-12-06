@@ -32,8 +32,9 @@ img {
 }
 
 ul {
-  list-style: inside;
+    list-style: inside;
 }
+
 h1,
 h2,
 h3 {
@@ -56,18 +57,22 @@ h2 {
 }
 
 h3 {
-  font-weight: 700;
-  margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 1em;
 }
+
 date {
-  display: block;
-  font-size: 2em;
-  font-weight: normal;
-  color: #CCC;
+    display: block;
+    font-size: 2em;
+    font-weight: normal;
+    color: #CCC;
 }
+
 nav {
     margin-bottom: 3em;
 }
+
 nav ul {
     font-size: 0px;
     list-style: none;
@@ -89,33 +94,55 @@ nav a {
     background-color: black;
 }
 
+nav a:hover {
+    background-color: #ddd;
+    color: #A00
+}
+
 main {
-  width: 65%;
-  float: left;
+    width: 65%;
+    float: left;
 }
 
 hr {
-  margin: 2em 0 2em 0;
+    margin: 2em 0 2em 0;
 }
 article h2 {
-  font-size: 2em;
-  color: black;
+    font-size: 2em;
+    color: black;
+}
 
+article p:first-of-type:first-letter {
+    font-size: 6em;
+    color: #CCC;
+    float: left;
+    margin: -.3em .1em -.3em -.1em;
 }
+
 aside {
-  width: 30%;
-  float: right;
-  margin-top: 5.5em;
+    width: 30%;
+    float: right;
+    margin-top: 5.5em;
+    color: #888;
 }
+
 footer {
-  display: block;
+    display: block;
+    color: #BBB;
 }
+
+footer ul {
+    list-style: none;
+    margin-bottom: 2em;
+}
+
 .continue {
-  margin-top: 1em;
-  display: block;
-  font-weight: bold;
-  text-align: right;
+    margin-top: 1em;
+    display: block;
+    font-weight: bold;
+    text-align: right;
 }
+
 .clear {
     clear: both;
 }
