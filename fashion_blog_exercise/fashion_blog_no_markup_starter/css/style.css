@@ -39,10 +39,6 @@ img {
     max-width: 100%;
 }
 
-ul {
-    list-style: inside;
-}
-
 h1,
 h2,
 h3 {
@@ -132,6 +128,11 @@ aside {
     float: right;
     margin-top: 4.5em;
     color: #888;
+}
+
+aside ul {
+  margin-top: 1.5em;
+  margin-left: 2em;
 }
 
 footer {
