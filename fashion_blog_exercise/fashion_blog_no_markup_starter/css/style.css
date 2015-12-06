@@ -33,6 +33,7 @@ time {
 article {
   margin-left: 50px;
   width: 900px;
+  border-bottom: 1px solid grey;
 }
 article p {
   font-family: 'Raleway', sans-serif;
@@ -56,6 +57,7 @@ aside {
   float: right;
   width: 430px;
   margin-top: -1200px;
+  margin-right: 10px;
   font-family: 'Raleway', sans-serif;
 }
 aside h4 {
@@ -95,11 +97,9 @@ footer p {
   font-size: 24px;
 }
 
-.border {
-  margin-left: 50px;
-  height: 1px;
-  width: 900px;
-  background-color: grey;
+aside section {
+  border-bottom: 1px solid grey;
+  padding: 25px 0 25px 0;
 }
 
 #ad {
