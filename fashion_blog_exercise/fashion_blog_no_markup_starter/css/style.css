@@ -1,0 +1,117 @@
+header{
+  height: 20%;
+  width: 100%;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-family: Lato, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body{
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+main{
+  height: 70%;
+  float: left;
+  width: 60%;
+}
+section{
+  color: grey;
+}
+h1{
+  display: inline-block;
+}
+
+h2{
+  display: block;
+}
+
+h3{
+  color: grey;
+}
+a:link{
+  color: red;
+  text-decoration: none;
+}
+a:visited{
+  color:red;
+  text-decoration: none;
+}
+nav ul li{
+  display: inline;
+  background-color: black;
+  color: white;
+  list-style: none;
+}
+header nav{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 19pt;
+  margin: 0 2px 2px 0;
+  padding: 10px 26px;
+}
+aside{
+  width: 30%;
+  float: right;
+  margin-left: 10%;
+}
+footer{
+  clear: both;
+  height: 20%;
+  width: 100%;
+}
+footer ul li{
+  display: inline-block;
+}
+small{
+  color: grey;
+}
+.menu{
+  height: 30px;
+  text-decoration: none;
+  padding: 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+time{
+  color: grey;
+}
+.featr{
+  width: 100%;
+}
+.ad{
+  width: 100%;
+}
+.posts{
+  color: red;
+}
+.ndx{
+  color: red;
+  display: inline;
+  position: relative;
+  left: -35px;
+}
+.lnk{
+  color: red;
+  float: right;
+}
+.cnt {
+  color: grey;
+}
+.firstletter{
+  font-size: 200%;
+  font-size: 5em;
+  line-height: 1;
+  color: #999;
+  margin: -.1em .1em 0 -.1em;
+  vertical-align: text-bottom;
+  float: left;
+}
+#etc{
+  display: inline;
+}
+.sqr{
+  padding: 10px;
+  background-color: black;
+  margin: 0;
+}
