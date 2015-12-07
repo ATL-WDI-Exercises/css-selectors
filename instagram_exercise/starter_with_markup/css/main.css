@@ -3,3 +3,17 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+h1 {
+  text-align: right;
+}
+.page {
+  padding: 5% 20%;
+}
+.main {
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 5px 5px 30px lightgray;
+  float: right;
+  padding: 0 2%;
+  width: 50%
+}
