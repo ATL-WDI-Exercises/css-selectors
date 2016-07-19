@@ -1,0 +1,203 @@
+/*Defaults*/
+body {
+  max-width: 1086px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #444;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+time {
+  font-size: 35px;
+  color: #d7d7d7;
+}
+
+/*Header*/
+header h1 a {
+  color: #f30000;
+  font-size: 55px;
+  float: left;
+  margin-top: 59px;
+}
+
+header h2 {
+  color: #888;
+  float: left;
+  font-size: 27px;
+  margin: 86px 0 13px 35px;
+}
+
+nav {
+  overflow: auto;
+  clear: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+}
+
+nav ul li a {
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  padding: 18px 0;
+  max-width: 180px;
+  width: 100%;
+  border-left: 1px solid #fff;
+  background-color: #000;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+nav ul li a:hover {
+  background-color: #888;
+}
+
+/*Main*/
+main {
+  max-width: 727px;
+  float: left;
+}
+
+article {
+  border-bottom: 1px solid #d7d7d7;
+  float: left;
+  margin-top: 58px;
+}
+
+article h2 {
+  margin-top: 9px;
+  margin-bottom:14px;
+}
+article h2 a {
+  font-size: 36px;
+  font-weight: 300;
+  color: #000;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+article p {
+  margin-top: 22px;
+  font-size: 17px;
+  font-weight: 400;
+  font-weight: 300;
+}
+
+article p::first-letter {
+    font-size: 107px;
+    float: left;
+    font-weight: 300;
+    padding: 0 10px 10px 0;
+    color: #d7d7d7;
+    line-height: .8;
+}
+
+article p a {
+  float: right;
+  font-size: 18px;
+  color: #f30000;
+  font-weight: 700;
+  padding: 0 18px 20px 0;
+}
+
+/*Aside*/
+aside {
+  float: right;
+  max-width: 313px;
+}
+
+aside section {
+  border-bottom: 1px solid #d7d7d7;
+  float: right;
+}
+
+aside section:last-of-type {
+  border-bottom: none;
+}
+
+aside section ul li {
+  color: #888;
+}
+
+aside section ul li a {
+  color: #f30000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+aside section p {
+  color: #888;
+  margin-top: 26px;
+}
+
+aside p a {
+  float: right;
+  font-size: 18px;
+  color: #f30000;
+  font-weight: 700;
+  padding: 0 18px 20px 0;
+}
+
+aside h4 {
+  color: #888;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 134px;
+}
+
+aside h4:last-of-type {
+  margin-top: 27px;
+  margin-bottom: 18px;
+}
+
+aside img {
+  margin-top: 28px;
+  padding-bottom: 28px;
+}
+
+/*Footer*/
+footer {
+  clear: both;
+  color: #bbb;
+  padding-top: 53px;
+}
+
+footer a {
+  color: #f30000;
+  font-size: 18px;
+}
+
+footer p {
+  margin-top: 20px;
+}
+
+footer p small {
+  color: #bbb;
+}
