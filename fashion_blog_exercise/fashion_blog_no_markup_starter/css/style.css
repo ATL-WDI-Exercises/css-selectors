@@ -1,0 +1,152 @@
+/*----- Simple CSS Reset per John Humbracht -----*/
+* { margin:0; padding:0; box-sizing:border-box; }
+/*----- Global Border for Layout Testing -----*/
+/** {
+  border: 1px dotted red;
+}*/
+/*----- Micro clearfix from https://css-tricks.com/snippets/css/clear-fix/ -----*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*----- Global Defaults -----*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 5%;
+}
+p {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+/*----- Header & Nav -----*/
+header {
+  padding: 3% 0;
+}
+#headline {
+  height: 4em;
+}
+#headline h1, #headline h2 {
+  vertical-align: text-bottom;
+}
+#headline h1 {
+  color: red;
+  float: left;
+  font-size: 3em;
+  font-weight: 300;
+  width: 20%;
+}
+#headline h2 {
+  color: gray;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 23px 0 0 0;
+}
+nav a, nav a:visited {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 16.4%;
+}
+nav a:hover{
+  background-color: black;
+  color: white;
+}
+/*----- Main Section + Articles -----*/
+section#main {
+  float: left;
+  width: 70%;
+}
+section img {
+  width: 100%;
+}
+article {
+  border-bottom: 1px solid gray;
+  margin-bottom: 3%;
+  padding: 2% 0;
+}
+article h3 {
+  font-size: 2em;
+  font-weight: 300;
+  margin-bottom: 1%;
+}
+article img {
+  margin-bottom: 2%;
+}
+article a, article a:visited {
+  color: red;
+  display: block;
+  float: right;
+  text-decoration: none;
+}
+.article-date {
+  color: gray;
+}
+article p:first-letter {
+  color: lightgray;
+  font-size: 7em;
+  font-weight: 300;
+  float: left;
+  display: block;
+  height: 1em;
+  margin: 3% 2% 3% 0;
+}
+/*----- Sidebar -----*/
+aside {
+  float: right;
+  padding-top: 5em;
+  width: 25%;
+}
+aside div {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+aside img {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  width: 100%;
+}
+aside a, aside a:visited {
+  color: red;
+  display: block;
+  float: right;
+  text-decoration: none;
+}
+#about {
+  border-bottom: 1px solid lightgray;
+}
+aside h4 {
+  color: gray;
+  margin-bottom: 1em;
+}
+#popular-posts ul, #popular-posts li {
+  color: red;
+  font-weight: 300;
+  margin: 1em 0 0 1em;
+  text-decoration: none;
+
+}
+/*----- Footer -----*/
+footer {
+  padding: 5% 0 0 0;
+}
+#footer-nav a, #footer-nav a:visited {
+    border-right: 1px solid red;
+    color: red;
+    padding: 0 1%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#footer-nav a:last-child {
+  border: none;
+}
+footer p {
+  color: gray; margin: 5% 0;
+}
