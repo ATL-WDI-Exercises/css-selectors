@@ -1,0 +1,174 @@
+/*
+  Box Sizing
+*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+  Body
+*/
+body {
+  color: #8D8D8D;
+  font-family: 'Lato', sans-serif;
+  line-height: 2em;
+  width: 1260px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 100;
+}
+
+/*
+  header
+*/
+header {
+  margin-top: 5em;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 2.5em;
+  margin: 0 0.5em 0.5em 0;
+  padding: 0;
+}
+
+header h2 {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+h1 a {
+  text-decoration: none;
+  color: red;
+}
+
+/*
+  Top Nav
+*/
+nav {
+  margin: 1em 0;
+  padding: 0 0 0 0;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  nav ul li {
+    background: black;
+    display: inline-block;
+    padding: 1em;
+    text-align: center;
+    width: calc(100% / 6 - 3px)
+  }
+
+    nav ul li a {
+      font-size: 1.5em;
+      font-weight: 200;
+      text-decoration: none;
+      color: white;
+    }
+
+/*
+  Main
+*/
+main {
+  float: left;
+  width: 900px;
+}
+
+article {
+  border-bottom: 1px solid #ddd;
+  margin: 2em 0;
+  margin-bottom: 2.5em;
+}
+
+  article time {
+    font-size: 1.75em;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+  }
+
+  article h2 {
+    font-size: 2em;
+  }
+
+    article h2 > a {
+      color: #333;
+      text-decoration: none;
+    }
+
+  article p:first-of-type:first-letter {
+    color: #ccc;
+    float: left;
+    font-weight: 200;
+    line-height: 75px;
+    font-size: 100px;
+    padding: 4px 8px 0 3px;
+  }
+
+  p + p {
+    text-align: right;
+  }
+p > a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+/*
+  Sidebar
+*/
+aside {
+  float: right;
+  width: calc(300px + 1em);
+  margin-top: 4em;
+  padding: 0.5em;
+}
+
+  section img {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 1em 0;
+    padding: 1.5em 0;
+  }
+
+  section h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  section p {
+    margin: 0;
+    padding: 0;
+  }
+
+  section ul li a {
+    color: red;
+    text-decoration: none;
+  }
+
+/*
+  Footer
+*/
+footer {
+  clear: both;
+  padding: 1em 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: red;
+}
