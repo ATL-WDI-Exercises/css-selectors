@@ -1,0 +1,197 @@
+body {
+  font-family: "Lato";
+  font-weight: 300;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+hr {
+  margin: 100px 0 60px 0;
+  width: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/************
+  HEADER
+*************/
+
+header {
+  height: 200px;
+}
+
+header h1 {
+  font-weight: 300;
+  font-size: 3em;
+  color: rgb(216,34,44);
+  margin: 40px 0 0 0;
+}
+
+header h1 small {
+  margin-left: 20px;
+  color: rgb(117,117,117);
+  font-size: 0.55em;
+}
+
+header ul {
+  padding: 0;
+}
+
+header ul li {
+  padding: 15px 4.75%;
+  margin: 0;
+  font-size: 1.35em;
+  background: black;
+  color: white;
+  border-right: 1px solid white;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+}
+
+header ul:first-child {
+  margin-left: 25px;
+}
+
+
+/************
+  Blog
+*************/
+
+.blog {
+  position: relative;
+  float: left;
+}
+
+
+/************
+  Content
+*************/
+
+article {
+  width: 65%;
+}
+
+article img{
+  max-width: 100%;
+}
+
+.blogDate {
+  color: lightgray;
+  font-size: 2.3em;
+  font-weight: 300;
+}
+
+article h1 {
+  margin: 10px 0;
+    font-size: 2.5em;
+  font-weight: 300;
+}
+
+article .blogTxt p{
+  font-size: 1.3em;
+}
+
+article .blogTxt p:first-child:first-letter{
+  float: left;
+  color: #DDD;
+  font-size: 5em;
+  margin: -17.5px 10px -10px 0;
+}
+
+
+/************
+  Nav
+*************/
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  width: 30%;
+  margin-top: 40px;
+}
+
+nav .about h4{
+  color: #727272;
+  font-size: 1.4em
+}
+
+nav .about p {
+  margin-top: 35px;
+  color: #888;
+  font-size: 1.3em;
+}
+
+nav hr{
+  width: 95%;
+
+  margin: 10px 2.5%;
+}
+
+nav .ad img{
+  margin: 15px 5%;
+  width: 90%;
+}
+
+nav li a{
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #E67972;
+}
+
+
+/************
+  Footer
+*************/
+
+footer {
+  float: left;
+}
+
+footer ul{
+  padding: 0;
+}
+
+footer li {
+  font-size: 1.1em;
+  display: inline;
+}
+
+footer li a{
+  color: #E67972;
+}
+
+footer:last-child{
+  margin-bottom: 30px;
+}
+
+
+/************
+  Misc
+*************/
+
+.expand{
+  float: right;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #D50D0D;
+  padding: 5px 0 15px 0;
+}
+
+.clear {
+  clear: both;
+}
